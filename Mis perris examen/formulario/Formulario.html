@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>  </title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="validCampoFranz.js"></script>
+
+</head>
+<body>
+  <h1> Formulario de Registro</h1>
+  <form action="registrar.php" method="post"
+   class="form-register">
+  <h2 class="form__titulo"> Crea una cuenta </h2>
+  <div class="contenedor-inputs">
+  <input type="text" id="nombre" minlength="8" maxlength="40" placeholder="Nombre Completo" class="input-100" required>
+  <input type="text" name="rut" minlength="8" maxlength="12" placeholder="Rut, Ej: 18.684.482-k" required oninput="checkRut(this)" class="input-100" required>
+  <input type="email" name="correo" minlength="10" maxlength="30"    placeholder="Correo"  class="input-100" required>
+  <select id="regiones" placeholder="Regiones" class="input-50" required></select> 
+  <select id="comunas" placeholder="Comunas" class="input-50" required></select> 
+  <input type="date" min= "1920" max= "2000" name="fecha_nac" placeholder="Fecha de nacimiento" class="input-50" required>
+  <select type="text" name="tipo_viv" placeholder="Tipo de vivienda" class="input-50" required>
+    <option selected value="0"> Elige tu vivienda </option>
+    <option value="1"> Casa con patio grande </option>
+    <option value="1"> Casa con patio pequeño </option>
+    <option value="1"> Casa sin patio </option>
+    <option value="1"> Departamento </option>
+  <input type="number" id="telefono" placeholder="Telefono,   Ej: 955872365" class="input-100" required>
+  <input type="submit" value="Registrar" class="btn-enviar">
+  
+</div>   
+</form>
+</body>
+</html>
+
+

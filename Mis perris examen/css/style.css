@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ebrima; 
+}
+
+.content-header{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    margin: auto;  
+}
+
+.content-logo{
+    width:auto;
+    height:auto;
+    text-align: center;
+    background: #85d4b7;
+}
+
+.content-header .content-menu ul li {
+
+    list-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 50px;
+    border: 1px solid #85d4b7;
+    background: #6ccba9;
+    
+}
+
+
+.content-menu{
+    text-align: center;
+}
+
+.content-menu ul li a{
+    padding-top: 15px;
+    display: block;
+    color: white;
+}
+
+
+
+
+/* Contenido slider */
+
+.content-slider{
+    box-sizing: border-box;
+    background: #6DCCAA;
+    margin-top: px;
+    text-align: center;
+    margin: auto;
+}
+
+.slides li {
+list-style: none;
+}
+
+.carrusel{
+    position: absolute;
+    bottom: 20%;
+    color: black;   
+    margin-left: 40px;
+}
+
+.carrusel2{
+    position: absolute;
+    bottom: 20%;
+    color:white;
+    margin-left: 35px;
+}
+
+.carrusel3{
+    position: absolute; 
+    margin-left: 32px; 
+    bottom: 20%; 
+}
+/* contenido mitad */
+.redes{
+
+    display: flex;
+    justify-content: center;
+    letter-spacing: 15px;
+}
+
+.item-redes{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+    font-size: 36px;
+}
+
+main{
+    padding-top: 30px;
+    background: white;
+    
+}
+
+.content-rescate{
+
+    text-align: right;
+}
+
+.content-rescate hr{
+   width: 14%;
+    height: 2px;
+    border-style:none;
+    background: black;
+}
+
+.content-rescate h4{
+
+    color: #BDBDBD;
+}
+.content-rescate p{
+    padding-top: 25px;
+    color: #BDBDBD;
+}
+
+.content-crowfunding{
+    text-align: left;
+    padding-top: 50px;
+}
+
+.content-imagen img {
+    padding-top: 25px;
+    width: 50%;
+    height: 25%;
+}
+
+
+.content-crowfunding h1 {
+    padding-top: 25px;
+}
+
+.content-imagen2 img {
+    width: 50%;
+    height: 50%;
+}
+
+.content-crowfunding h4{
+
+    color: #BDBDBD;
+}
+.content-crowfunding p {
+    padding-top: 25px;
+    color: #BDBDBD;
+}
+
+.container-button{
+    text-align: left;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.button-campañas{
+    width: 130px;
+    margin-top: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 13px;
+    border: 3px solid black;
+}
+
+.button-campañas a{
+    
+ font-weight: bold;
+ color: black;
+ text-decoration: none;
+ 
+}
+
+/* CONTENIDO GALERIA */
+
+.content-galery{
+    padding-top: 0px;
+     background: #6ccba9;
+     margin: auto;
+}
+
+
+.galery-images{
+    justify-content: center;
+    padding: 10px;    
+    display: flex;
+}
+
+.section1{  
+    text-align: left;
+    display: block;
+    margin: 13px solid #6ccba9;
+}
+
+.section2{
+    text-align: center;
+    display: block;   
+    margin: 13px solid #6ccba9;
+}
+
+.section3 {
+    display: block;
+    text-align: right;
+    margin: 13px solid #6ccba9;
+}
+
+.galery-images li{
+    list-style: none;
+}
+
+li img{
+    width: 100%;
+    height: auto;
+}
+
+/* MODAL */
+
+.modal{
+
+    display: none;
+}
+
+.modal:target{
+
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3{
+
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin:0 10px;
+}
+
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.cerrar{
+    display: block;
+    background: grey;
+    width: 28px;
+    height: 28px;
+    margin:  15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    border-radius: 50%   
+}
+
+.cerrar a {
+    color: white;
+    text-decoration: none;
+}
+
+.texto{  
+    margin: 100,20,20;
+    text-align: center;
+    font-size: 20px;
+    color: white; 
+    
+}
+
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border-radius: 3%;
+    border: 4px groove black;
+    box-sizing: border-box;
+}
+
+
+/* FOOTER */
+
+footer{
+    background: #E6E6E6;
+}
+
+.text-f{
+    margin: auto;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 40px;
+}
+
+.text-f p{
+    color: #544D54;
+    font-size: 90%;
+    font-weight: bold;
+    
+}
+
+@media screen and (min-width: 800px){
+
+    body{
+        background: #6DCCAA;
+    }
+
+    .content-header{   
+        display: flex;
+        justify-content: space-between;
+        background: #85D4B7;
+    }
+    .content-header .content-menu ul li {
+
+        list-style: none;
+        box-sizing: border-box;
+        cursor: pointer;
+        height: 50px;
+        border: 1px solid #85d4b7;
+        background: #6ccba9;
+        
+    }
+
+    .content-header .content-menu ul li{
+        padding-right: 22px;
+        display: inline-block;
+        border: none;
+        background:#85d4b7;
+    }
+
+    .list li a {
+        background: #85d4b7;
+    }
+
+    .content-header2{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .flexslider{
+        margin: auto;
+        height: auto;
+        width: 80%;
+        align-content: center;
+        
+    }
+
+    .slides{
+        padding: 20px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -o-flex;
+        display: flex;
+        width: 100%;
+    }
+
+   
+
+    .slides > li{
+        width: 100%;
+        position: relative;
+    }
+
+    .slides > li > img{
+        margin: auto;
+        height: auto;
+        width: 500px;
+    }
+
+
+    .carrusel{
+        position: absolute;
+        bottom: 20%;
+        margin-left: 75%;
+        color: white;
+        font-size: 79%
+    }
+
+    .carrusel2{
+        position: absolute;
+        margin-left: 70%;
+        bottom: 25%;
+        font-size: 80%;
+        color:white;
+    }
+
+    .carrusel3{
+        position: absolute;
+        bottom: 20%;
+        margin-left: 73%;  
+        color: white; 
+    }
+
+    main{
+        justify-content: center; 
+        display: flex;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .content-slider{
+        justify-content: center;
+        padding-top: 5%;
+        padding-left: 17%;
+    }
+
+    .content-rescate{
+        text-align: right;
+    padding-left: 10%; 
+        
+    }
+    
+    .content-crowfunding{
+        padding-top: 0;
+        text-align: left;
+        padding-left: 4%
+    }
+    
+    .content-image img{
+        width: auto;
+            
+    }
+    .content-imagen2 img{
+        width: 300px;
+    }
+
+}
